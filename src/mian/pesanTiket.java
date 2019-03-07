@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package railreserve;
+package mian;
 
 import java.io.*;
 /**
@@ -42,6 +42,7 @@ public class pesanTiket {
             System.out.println("4. Daftar Pemesanan");
             System.out.println("5. Daftar Tiket Sisa");
             System.out.println("6. Exit");
+            System.out.println(" ");
             System.out.print("Pilih Menu [1-6]: ");
             pilih = Integer.parseInt(getRead.readLine());
 
